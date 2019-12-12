@@ -23,7 +23,7 @@ echo "mvn=$mvn"
 
 sh("${mvn}  sonar:sonar \
   -Dsonar.host.url=http://52.206.87.176:9000 \
-  -Dsonar.loginapp=2d52bb44431a113b02c4cb1a288b0371caa3238e  ")
+  -Dsonar.loginapp=81ae406a16225954470ad083fca15d997e8cf795  ")
 
 }
 stage('package'){
